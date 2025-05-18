@@ -1,33 +1,13 @@
-# SQL_Music_Store_Analysis
-"The Music Store Story"
+# SQL_Project_Music_Store_Analysis
+SQL project to analyze online music store data
 
-Imagine you're working for an online music store. Here's how the system is organized:
+This project is for beginners and will teach you how to analyze the music playlist database. You can examine the dataset with SQL and help the store understand its business growth by answering simple questions.
 
-👥 People
-Customers come to the store to buy music.
+> Complete project explained on YouTube: https://www.youtube.com/watch?v=VFIuIjswMKM
 
-Each customer is helped by a Support Rep (an Employee).
+## Database and Tools
+* Postgre SQL
+* PgAdmin4
 
-Employees also have managers, which is shown through a self-join in the Employee table.
-
-💽 Music Organization
-Artists create albums.
-
-Each album contains tracks (songs).
-
-Every track belongs to a genre and is in a certain media type (like MP3, WAV, etc.).
-
-🎶 Playlists
-Customers can create playlists.
-
-A playlist can have many tracks, and each track can be in many playlists.
-
-This is a many-to-many relationship, handled by the PlaylistTrack table.
-
-🧾 Sales
-When a customer buys music, an Invoice is created.
-
-Each invoice has one or more InvoiceLine entries – each line represents a track the customer bought.
-
-So the flow is:
-Customer → Invoice → InvoiceLine → Track
+Schema- Music Store Database  
+![MusicDatabaseSchema](https://user-images.githubusercontent.com/112153548/213707717-bfc9f479-52d9-407b-99e1-e94db7ae10a3.png)
